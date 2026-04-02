@@ -1,20 +1,12 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Data Engineering & Analytics Portfolio
 
-# Run and deploy your AI Studio app
+Welcome to my professional data portfolio. This project showcases my expertise in building data pipelines, performing market basket analysis, and creating interactive BI dashboards.
 
-This contains everything you need to run your app locally.
+## Projects
+- **Retail Data Engineering Pipeline:** Medallion architecture using Databricks and PySpark.
+- **Market Basket Analysis:** Apriori algorithm for customer purchasing patterns.
+- **Airbnb Clustering Analysis:** Market segmentation using K-Means.
+- **Forecasting Pipeline:** Time-series analysis for multi-family housing trends.
 
-View your app in AI Studio: https://ai.studio/apps/91e8b307-8c33-4e11-9351-fd41e5f0d046
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Deployment
+This portfolio is automatically deployed to GitHub Pages using GitHub Actions.
