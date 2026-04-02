@@ -296,12 +296,12 @@ const Experience = () => (
             period: "MAY 2024 - PRESENT",
             company: "University of Texas at Arlington",
             metrics: [
-              { label: "Students Supported", value: "150+" },
+              { label: "Students Supported", value: "350+" },
               { label: "Technical Mentorship", value: "Daily" },
               { label: "Course Focus", value: "Stats & Data" }
             ],
             points: [
-              "Facilitated advanced statistical analysis sessions, mentoring 150+ graduate students on hypothesis testing, regression modeling, and probability distributions using R and Python.",
+              "Instructed 350+ undergraduate students in Statistics and Business Analytics, covering probability, hypothesis testing, regression, and interpretation of data-driven results using R and Python.",
               "Leading lab sessions on large-scale data processing, focusing on ETL workflows, data cleaning techniques, and performance optimization in SQL and Spark.",
               "Delivered comprehensive technical feedback on complex data engineering assignments, ensuring student mastery of core concepts in data manipulation and statistical inference."
             ]
