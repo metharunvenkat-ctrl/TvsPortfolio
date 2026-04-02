@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Newsreader", serif;
+  --font-label: "JetBrains Mono", monospace;
+  --font-body: "Newsreader", serif;
+
+  --color-surface: #0e141d;
+  --color-primary: #46f1cf;
+  --color-primary-container: #00d4b4;
+  --color-secondary: #f0c040;
+  --color-on-surface-variant: #bacac4;
+  --color-outline-variant: #3b4a45;
+  --color-surface-container: #1a2029;
+  --color-surface-container-low: #161c25;
+  --color-surface-container-high: #252a34;
+  --color-surface-container-lowest: #090e17;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface-variant font-body selection:bg-primary selection:text-surface;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
